@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{f362ad03-bd05-4870-9e41-94ec6faf25a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page">
+      <UniqueIdentifier>{53cb0260-18f6-42bc-a566-80d3b6108b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{f0535670-10de-47ba-ae04-30621155dd35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Page\MainPage.cpp">
+      <Filter>Page</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Material.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\MainFrame.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Page\IPage.h">
+      <Filter>Page</Filter>
+    </ClInclude>
+    <ClInclude Include="Page\MainPage.h">
+      <Filter>Page</Filter>
+    </ClInclude>
+    <ClInclude Include="Page\PageDef.h">
+      <Filter>Page</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Material.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\MainFrame.h">
+      <Filter>main</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
